@@ -10,5 +10,5 @@ public abstract class BinaryExpression extends Expression{
     }
     public  String toString(){
         return " ";
-    };
+    }
 }
