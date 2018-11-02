@@ -17,7 +17,7 @@ public class Task2 {
     }
 
     static void TestFileNotFoundException() throws FileNotFoundException {
-        FileInputStream file = new FileInputStream("H:\\GitHub\\oop2018\\src\\week7.pdf");
+        FileInputStream file = new FileInputStream("C:\\GitHub\\oop2018\\src\\week7.pdf");
     }
 
     static void TestArrayIndexOfBoundException() throws ArrayIndexOutOfBoundsException {
