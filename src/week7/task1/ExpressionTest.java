@@ -16,13 +16,13 @@ public class ExpressionTest {
         Numeral result = new Numeral((10 * 10 - 1 + 2 * 3) *(10 * 10 - 1 + 2 * 3));
         System.out.println("expression: "+result.toString());
 
-        System.out.println("addition "+addition.Addition(num0,num2).toString());
-        System.out.println("subtraction "+subtraction.Subtraction(num1,num2).toString());
-        System.out.println("multiplication "+multiplication.Multiplication(num2,num3).toString());
-        System.out.println("division "+ division.Division(num2,num1).toString());
+        System.out.println("addition "+addition.Addition(num0,num3).toString());
+        System.out.println("subtraction "+subtraction.Subtraction(num3,num2).toString());
+        System.out.println("multiplication "+multiplication.Multiplication(num0,num3).toString());
+        System.out.println("division "+ division.Division(num2,num2).toString());
         System.out.println("---------------------");
         try {
-            System.out.println(division.Division(num10, num0).toString());
+            System.out.println(division.Division(num1, num0).toString());
         } catch (ArithmeticException e) {
             System.out.println("ArithmeticException");
         }
